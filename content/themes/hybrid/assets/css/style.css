@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Roboto Sans', 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #20252b;
   font-size: 14px;
   line-height: 32px;
@@ -26,7 +26,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-  font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+  font-family: 'Neuzeit Grotesk', 'Helvetica Neue', sans-serif;
   line-height: 1.5;
 }
 .btn,
@@ -2549,8 +2549,9 @@ body[data-site-layout="boxed"] .sf-header {
 .widget .sf-search-widget .search-result-widget.searching {
   display: block;
 }
-.widget .sf-cta-widget {
+.widget .sf-cta-widget .email {
   width: 100%;
+  padding-left: 0.5em;
 }
 .footer .widget-area {
   background-color: #ffffff;
