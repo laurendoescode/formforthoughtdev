@@ -1274,7 +1274,7 @@ body[data-site-layout="boxed"] .sf-header {
   width: 100%;
   height: 100%;
   z-index: 0;
-  opacity: 0.5;
+  opacity: 0.1;
 }
 .banner.no-mask:after {
   display: none;
@@ -1305,8 +1305,6 @@ body[data-site-layout="boxed"] .sf-header {
 .banner .banner-wrap .banner-inner .banner-content .banner-content-inner .welcome-text {
   float: left;
   max-width: 55%;
-  border-top: solid 1px #ffffff;
-  border-bottom: solid 1px #ffffff;
   padding: 20px 0;
   text-align: left;
 }
@@ -1384,7 +1382,7 @@ body[data-site-layout="boxed"] .sf-header {
 .banner .banner-wrap .banner-inner .banner-content .banner-content-inner .sf-social {
   position: absolute;
   right: 0px;
-  bottom: -4px;
+  bottom: -95px;
   text-align: right;
 }
 .banner .banner-wrap .banner-inner .banner-content .banner-content-inner .sf-social li {
