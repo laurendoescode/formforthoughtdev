@@ -489,8 +489,8 @@ a {
   vertical-align: middle;
 }
 .sf-header .logo-container .logo img {
-  max-height: 32px;
-  max-width: 200px;
+  max-height: 45px;
+  max-width: 285px;
 }
 .sf-header .logo-container .logo.text {
   font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
@@ -2548,6 +2548,9 @@ body[data-site-layout="boxed"] .sf-header {
 }
 .widget .sf-search-widget .search-result-widget.searching {
   display: block;
+}
+.widget .sf-cta-widget {
+  width: 100%;
 }
 .footer .widget-area {
   background-color: #ffffff;
