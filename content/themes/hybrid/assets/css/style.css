@@ -2,9 +2,8 @@ body {
   font-family: 'Roboto', 'Helvetica Neue', sans-serif;
   color: #20252b;
   font-size: 14px;
-  line-height: 32px;
+  line-height: 26px;
   font-weight: 400;
-  letter-spacing: 0.01rem;
   margin: 0;
   padding: 0;
 }
@@ -2040,6 +2039,36 @@ body[data-site-layout="boxed"] .sf-header {
 .post-footer .post-author .post-author-content p {
   margin-bottom: 0;
   overflow: hidden;
+}
+/*SLIDE-IN CTA
+--------------------------------------------- */
+#slidebox {
+  padding: 10px 16px 10px 10px;
+  background-color: #fff;
+  border-top: 3px solid #F7761F;
+  position: fixed;
+  bottom: 0;
+  right: -430px;
+  -moz-box-shadow: -2px 0 5px #aaaaaa;
+  -webkit-box-shadow: -2px 0 5px #aaaaaa;
+  box-shadow: -2px 0 5px #aaaaaa;
+}
+a.close {
+  background: transparent url(http://cdn2.hubspot.net/hub/53/file-527841348-gif/close.gif) no-repeat top left;
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  right: 10px;
+}
+a.close:hover {
+  background-position: 0 -13px;
+}
+@media only screen and (max-device-width: 480px) {
+  #slidebox {
+    width: 100%;
+  }
 }
 .widget .widget-title {
   margin-top: 0;
