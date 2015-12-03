@@ -16,6 +16,7 @@
     {{! Change google font here }}        
     <link rel="stylesheet" type="text/css" href="{{asset "css/style.min.css"}}" />
 	<link rel="stylesheet" type="text/css" href="{{asset "css/custom.css"}}" />
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
     <script type="text/javascript"> var rootUrl = '{{@blog.url}}';</script> 
     <script src="https://use.typekit.net/hlk6aid.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>      
@@ -23,28 +24,6 @@
     {{! Place your Google Analytic here }}
     {{! CTA side popup script }}
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-
-    <!-- Slidebox Script -->
-    <script type="text/javascript">
-    $(function() {
-      var slidebox = $('#slidebox');
-      if (slidebox.length>0) {
-        $(window).scroll(function(){
-            var distanceTop = $('#last').offset().top - $(window).height();
-            if  ($(window).scrollTop() > distanceTop){
-                slidebox.animate({'right':'0px'},300);
-            }
-            else{
-                slidebox.stop(true).animate({'right':'-430px'},100);
-            }
-        });
-        $('#slidebox .close').on('click',function(){
-            $(this).parent().remove();
-        });
-      }
-    });
-    </script>
-    <!-- END Slidebox Script -->
 </head>
 <body class="{{body_class}}"
     data-parallax="true">        
