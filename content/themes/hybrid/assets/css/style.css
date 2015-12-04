@@ -1256,9 +1256,7 @@ body[data-site-layout="boxed"] .sf-header {
 }
 /*Hire me nav button*/
 .sf-nav-hire {
-  border: 1px solid #48bdcd;
-  display: inline;
-  background: #fff;
+  border: 2px solid #48bdcd;
 }
 .banner {
   position: relative;
@@ -2595,6 +2593,14 @@ body[data-site-layout="boxed"] .sf-header {
   -moz-box-shadow: -2px 0 5px #aaaaaa;
   -webkit-box-shadow: -2px 0 5px #aaaaaa;
   box-shadow: -2px 0 5px #aaaaaa;
+}
+#slidebox #mc_embed_signup {
+  background: #fff;
+}
+#slidebox #mc_embed_signup .button {
+  height: 2.5em;
+  margin-bottom: -2em;
+  font-size: 1.2em;
 }
 a.close {
   background: transparent url(http://cdn2.hubspot.net/hub/53/file-527841348-gif/close.gif) no-repeat top left;
