@@ -488,8 +488,7 @@ a {
   vertical-align: middle;
 }
 .sf-header .logo-container .logo img {
-  max-height: 45px;
-  max-width: 285px;
+  max-height: 4em;
 }
 .sf-header .logo-container .logo.text {
   font-family: 'Neuzeit Grotesk', 'Helvetica Neue', sans-serif;
@@ -2574,7 +2573,7 @@ body[data-site-layout="boxed"] .sf-header {
 }
 /* Slidebar CTA form and mailchimp subscribe form */
 #mc_embed_signup {
-  background: #46bdce;
+  border: 2px solid #46bdce;
   clear: left;
   font: 14px;
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
@@ -2582,13 +2581,12 @@ body[data-site-layout="boxed"] .sf-header {
   margin: 2px -10px 15px -10px;
 }
 #mc_embed_signup h2 {
-  font: #ffffff !important;
   line-height: 1.3em;
   margin-bottom: -25px;
-  font-size: 2em;
+  font-size: 1.7em;
 }
 #mc_embed_signup .button {
-  width: 96% !important;
+  width: 100% !important;
   margin-top: 4px !important;
 }
 #mc_embed_signup hr {
@@ -2610,6 +2608,7 @@ body[data-site-layout="boxed"] .sf-header {
   box-shadow: -2px 0 5px #aaaaaa;
 }
 #slidebox #mc_embed_signup {
+  border: none;
   background: #fff;
 }
 #slidebox #mc_embed_signup .button {
@@ -2623,11 +2622,11 @@ a.close {
   height: 16px;
   position: absolute;
   cursor: pointer;
-  top: 10px;
-  right: 10px;
+  top: 6px;
+  right: 6px;
 }
 a.close:hover {
-  background-position: 0 -13px;
+  background-position: 0 -16px;
 }
 @media only screen and (max-device-width: 480px) {
   #slidebox {
@@ -3076,6 +3075,10 @@ a.close:hover {
   }
 }
 @media only screen and (max-width: 480px) {
+  .sf-header .logo-container .logo img {
+    max-width: 18em;
+    margin-left: -1em;
+  }
   .banner {
     height: 590px;
   }

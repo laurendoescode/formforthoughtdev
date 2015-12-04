@@ -1,7 +1,7 @@
 {
 	"/Users/Lauren/Documents/06 Blog-formforthought/website/dev-website/ghost-0.7.1/content/themes/hybrid/assets/js/main.min.js": {
 		"hash": "6b94cdab",
-		"date": "20151204172447",
+		"date": "20151204211034",
 		"versioned": "/Users/Lauren/Documents/06 Blog-formforthought/website/dev-website/ghost-0.7.1/content/themes/hybrid/assets/js/main.min.js",
 		"files": [
 			{
@@ -77,8 +77,8 @@
 		]
 	},
 	"/Users/Lauren/Documents/06 Blog-formforthought/website/dev-website/ghost-0.7.1/content/themes/hybrid/assets/css/style.min.css": {
-		"hash": "2ba44c57",
-		"date": "20151204172448",
+		"hash": "16e541bf",
+		"date": "20151204211036",
 		"versioned": "/Users/Lauren/Documents/06 Blog-formforthought/website/dev-website/ghost-0.7.1/content/themes/hybrid/assets/css/style.min.css",
 		"files": [
 			{
@@ -108,7 +108,7 @@
 			},
 			{
 				"file": "/Users/Lauren/Documents/06 Blog-formforthought/website/dev-website/ghost-0.7.1/content/themes/hybrid/assets/css/style.css",
-				"hash": "3d509e6f",
+				"hash": "c731728",
 				"versioned": "/Users/Lauren/Documents/06 Blog-formforthought/website/dev-website/ghost-0.7.1/content/themes/hybrid/assets/css/style.css"
 			}
 		]
