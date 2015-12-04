@@ -2044,6 +2044,16 @@ body[data-site-layout="boxed"] .sf-header {
   margin-bottom: 0;
   overflow: hidden;
 }
+.content-ert {
+  float: right;
+}
+.content-ert img {
+  display: inline-block;
+  width: 14px;
+  position: relative;
+  top: 3px;
+  right: 4px;
+}
 .widget .widget-title {
   margin-top: 0;
   font-size: 24px;
@@ -2580,6 +2590,11 @@ body[data-site-layout="boxed"] .sf-header {
 #mc_embed_signup .button {
   width: 96% !important;
   margin-top: 4px !important;
+}
+#mc_embed_signup hr {
+  margin-top: 2em;
+  margin-bottom: -1em;
+  color: #dadfe1;
 }
 /* SLIDE-IN CTA */
 #slidebox {
@@ -3195,6 +3210,9 @@ a.close:hover {
   }
   .footer .bottom-area .bottom-area-wrap {
     padding: 20px;
+  }
+  .content-ert {
+    float: left;
   }
 }
 @media only screen and (max-height: 360px) {

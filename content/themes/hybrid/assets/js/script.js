@@ -2,6 +2,7 @@
     1. Common function
     2. Initialing
     3. CTA side popup
+    4. Estimated reading time
 */
 /*================================================================*/
 /*  1. Common function
@@ -803,6 +804,25 @@ paceOptions = {
 	$(document).ready(function() {
 	    "use strict";  
 	    sfApp.init();
+	    // Set estimated reading time
+	    function set_estimated_reading_time() {
+	        var post = '',
+	    	    words,
+	    	    minutes,
+	    	    seconds,
+	    	    estimated_time;
+	        $('.content-area p').map(function(idx, elem){post = post + elem.innerText;});
+	        words = post.split(' ').length;
+	        minutes = Math.floor( words / 120 );
+	        seconds = Math.floor( words % 120 / ( 120 / 60 ) );
+	        if ( 1 <= minutes ) {
+	            estimated_time = minutes + ' minute' + (minutes == 1 ? '' : 's') + ', ' + seconds + ' second' + (seconds == 1 ? '' : 's');
+	        } else {
+	            estimated_time = seconds + ' second' + (seconds == 1 ? '' : 's');
+	        }
+	        $('.ert-comment-count').html(estimated_time);
+	    }
+	    set_estimated_reading_time();
 	});
 	$(window).resize(function () {
 	    "use strict";    
@@ -840,4 +860,3 @@ paceOptions = {
         });
       }
     });
-
