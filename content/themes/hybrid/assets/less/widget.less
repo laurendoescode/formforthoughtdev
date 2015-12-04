@@ -454,22 +454,36 @@
         }	    
     }    
     .sf-cta-widget {
-	    .email {
-	    	width: 100%;
-	    	padding-left:0.5em;
+    display: block;
+    padding: 0 0 10px 0;
+    margin: 0 0 10px 0;
+    border-bottom: solid 1px #e2e7ea;
+    .email {
+    	width: 100%;
+    	padding-left:0.5em;
      }
     }
 }
 
-/* Slidebar CTA and mailchimp subscribe form */
+/* Slidebar CTA form and mailchimp subscribe form */
 
 #mc_embed_signup {
 	background:#fff; 
 	clear:left; 
 	font:14px; 
 	font-family: 'Roboto',Helvetica,Arial,sans-serif; 
+	h2 {
+		line-height: 1.3em;
+		margin-bottom: -25px;
+		font-size: 2em;
+	}
 }
 
+#mc_embed_signup .button {
+	    width: 96% !important;
+	    margin-top: 4px !important;
+
+}
 
 /* SLIDE-IN CTA */
 #slidebox {
