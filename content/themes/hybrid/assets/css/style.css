@@ -481,16 +481,16 @@ a {
   float: none;
   text-align: center;
 }
-.sf-header .logo-container .logo {
+.sf-header .logo-container .logo-full {
   text-decoration: none;
   line-height: 34px;
   display: inline-block;
   vertical-align: middle;
 }
-.sf-header .logo-container .logo img {
+.sf-header .logo-container .logo-full img {
   max-height: 4em;
 }
-.sf-header .logo-container .logo.text {
+.sf-header .logo-container .logo-full.text {
   font-family: 'Neuzeit Grotesk', 'Helvetica Neue', sans-serif;
   font-size: 38px;
   font-weight: 700;
@@ -500,7 +500,7 @@ a {
   padding: 0;
   margin: 0;
 }
-.dark .sf-header .logo-container .logo.text {
+.dark .sf-header .logo-container .logo-full.text {
   color: #ffffff;
 }
 .sf-header .nav-container {
@@ -3074,10 +3074,40 @@ a.close:hover {
     overflow: hidden;
   }
 }
+@media only screen and (min-width: 481px) {
+  .logo-mobile {
+    display: none;
+  }
+}
 @media only screen and (max-width: 480px) {
-  .sf-header .logo-container .logo img {
+  .sf-header .logo-container .logo-mobile img {
+    display: block;
     max-width: 18em;
     margin-left: -1em;
+  }
+  .sf-header .logo-container .logo-full {
+    display: none;
+  }
+  .addition-container {
+    height: 46px;
+  }
+  .addition-container .mobile-nav-button {
+    width: 46px;
+    height: 46px;
+  }
+  .addition-container .mobile-nav-button span {
+    width: 24px;
+    position: absolute;
+    left: 11px;
+    top: 22px;
+  }
+  .addition-container .sf-search-button {
+    width: 46px;
+    height: 46px;
+  }
+  .addition-container .sf-search-button i {
+    font-size: 21px;
+    line-height: 29px;
   }
   .banner {
     height: 590px;

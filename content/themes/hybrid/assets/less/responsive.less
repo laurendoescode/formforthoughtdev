@@ -247,12 +247,46 @@
 		}
 	}
 }
+
+@media only screen and (min-width: 481px) {
+	.logo-mobile {
+        display: none;
+    }
+}
+
+
 @media only screen and (max-width: 480px) { 
 
-    .sf-header .logo-container .logo img {
-	    max-width: 18em;
-		margin-left: -1em;
+    .sf-header .logo-container .logo-mobile img {
+    	display: block;
+	    max-width: 13em;
 	}
+	.sf-header .logo-container .logo-full {
+		display: none;
+	}
+
+	.addition-container {
+		height: 46px;
+		.mobile-nav-button {
+	        width: 46px;
+	        height: 46px;
+	        span {
+	        	width: 24px;
+	        	position: absolute;
+    			left: 11px;
+    			top: 22px;
+	        }
+	    }
+	    .sf-search-button {
+	    	width: 46px;
+	        height: 46px;
+	        i {
+	        font-size: 21px;
+   			line-height: 29px;
+	        }
+		}
+	}
+
 	.banner{
 		height: 590px;
 	}
@@ -260,7 +294,7 @@
 	  	font-size: 28px;
 	  	line-height: 38px;
 	}
-	.banner .banner-wrap .banner-inner .banner-content .banner-content-inner .welcome-text h3{
+	.banner .banner-wrap .banner-inner .banner-content .banner-content-inner .welcome-text h3 {
 		font-size: 18px;
 	}
 	.main-wrap{
