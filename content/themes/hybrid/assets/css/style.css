@@ -1301,6 +1301,24 @@ body[data-site-layout="boxed"] .sf-header {
   vertical-align: middle;
   display: table-cell;
 }
+.banner .banner-wrap .banner-inner .banner-content.error-page .banner-content-inner {
+  margin-top: -9em;
+}
+.banner .banner-wrap .banner-inner .banner-content.error-page .banner-content-inner .welcome-text {
+  max-width: 65%;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 30px;
+}
+.banner .banner-wrap .banner-inner .banner-content.error-page .banner-content-inner .welcome-text h1,
+.banner .banner-wrap .banner-inner .banner-content.error-page .banner-content-inner .welcome-text h3 {
+  color: #000;
+}
+.banner .banner-wrap .banner-inner .banner-content.error-page .banner-content-inner .welcome-text p {
+  font-size: 1.1em;
+}
+.banner .banner-wrap .banner-inner .banner-content.error-page .banner-content-inner .welcome-text .widget-title {
+  display: none;
+}
 .banner .banner-wrap .banner-inner .banner-content .banner-content-inner {
   position: relative;
 }
@@ -2634,6 +2652,9 @@ a.close:hover {
   }
 }
 /* END Slidebar CTA and mailchimp subscribe form */
+.banner-content .error-page h1 h3 {
+  color: #000;
+}
 .footer .widget-area {
   background-color: #ffffff;
 }
@@ -3082,8 +3103,7 @@ a.close:hover {
 @media only screen and (max-width: 480px) {
   .sf-header .logo-container .logo-mobile img {
     display: block;
-    max-width: 18em;
-    margin-left: -1em;
+    max-width: 13em;
   }
   .sf-header .logo-container .logo-full {
     display: none;
@@ -3108,6 +3128,27 @@ a.close:hover {
   .addition-container .sf-search-button i {
     font-size: 21px;
     line-height: 29px;
+  }
+  .addition-container .sf-search-button .sf-search-container {
+    right: -55px;
+    width: 86vw;
+    width: calc(100wv - 60px);
+    line-height: 4em;
+  }
+  .addition-container .sf-search-button .sf-search-container #search-keyword {
+    font-size: 17px;
+    padding-top: 24px;
+    padding-right: 20px;
+  }
+  .addition-container .sf-search-button .sf-search-container .sf-search-container-inner .arrow {
+    right: 67px;
+  }
+  .addition-container .banner .banner-wrap .banner-inner .banner-content.error-page .banner-content-inner .welcome-text {
+    min-width: 100%;
+  }
+  .sf-nav-wrap {
+    width: 343px;
+    top: 83px;
   }
   .banner {
     height: 590px;

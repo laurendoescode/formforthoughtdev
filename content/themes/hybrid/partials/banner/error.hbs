@@ -1,22 +1,22 @@
 <div class="banner">
 	<div class="banner-wrap">
 		<div class="banner-inner">
-			<div class="banner-content">
+			<div class="banner-content error-page">
 				<div class="banner-content-inner clearfix">
 					<div class="welcome-text">
-						<h1>{{code}} Error</h1>
-						<h3>Ooops, the page you are looking for can't be found!</h3>				
+						<h1>Oops</h1>
+						<h3>This is our ‘encoding specificity’ moment.</h3>
+						<p>Have you ever walked into a room and forgotton what you went for? That’s called the <strong>Encoding Specifity principle</strong>.<br>We can’t remember where we have put the link, but have a look at other topics here:</p><br>	
+						{{>widget/tags}}		
 					</div>
 					{{> misc/social-icons}}				
 				</div>
 			</div>
 		</div>
 	</div>
-	{{#if @blog.cover}}
-	<div class="background" style="background-image: url({{@blog.cover}});"
+	<div class="background" width="100%" style="background-image:url({{asset "img/404.jpg"}});"
 		data-bottom-top="transform: translate3d(0px,-200px, 0px);"
 		data-top-bottom="transform: translate3d(0px,200px, 0px);"
 		data-center="transform: translate3d(0px,0px, 0px);">
 	</div>
-	{{/if}}
 </div>
