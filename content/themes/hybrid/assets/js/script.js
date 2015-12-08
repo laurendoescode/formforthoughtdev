@@ -804,6 +804,7 @@ paceOptions = {
 	$(document).ready(function() {
 	    "use strict";  
 	    sfApp.init();
+	    $('.tweetthis').on('click', function(ev) {mixpanel.track("Tweeted This");});
 	    // Set estimated reading time
 	    function set_estimated_reading_time() {
 	        var post = '',
