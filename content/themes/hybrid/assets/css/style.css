@@ -2071,6 +2071,9 @@ body[data-site-layout="boxed"] .sf-header {
   top: 3px;
   right: 4px;
 }
+.footnote p {
+  margin-bottom: 0;
+}
 .widget .widget-title {
   margin-top: 0;
   font-size: 24px;
@@ -2600,17 +2603,32 @@ body[data-site-layout="boxed"] .sf-header {
 }
 #mc_embed_signup h2 {
   line-height: 1.3em;
-  margin-bottom: -25px;
+  margin-bottom: -5px;
   font-size: 1.7em;
+  padding-bottom: -1px;
+}
+#mc_embed_signup p {
+  margin: 0;
 }
 #mc_embed_signup .button {
-  width: 100% !important;
+  width: 96% !important;
   margin-top: 4px !important;
+  height: 42px;
+  font-size: 17px;
+  letter-spacing: 0.2px;
+}
+#mc_embed_signup .subscribe {
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  margin-bottom: -7px;
 }
 #mc_embed_signup hr {
-  margin-top: 2em;
-  margin-bottom: -1em;
+  margin-top: 0.5em;
+  margin-bottom: -0.5em;
   color: #dadfe1;
+}
+#mc_embed_signup .mc-field-group input {
+  margin-top: -10px;
 }
 /* SLIDE-IN CTA */
 #slidebox {
@@ -2624,6 +2642,14 @@ body[data-site-layout="boxed"] .sf-header {
   -moz-box-shadow: -2px 0 5px #aaaaaa;
   -webkit-box-shadow: -2px 0 5px #aaaaaa;
   box-shadow: -2px 0 5px #aaaaaa;
+}
+#slidebox h2 {
+  margin-bottom: -2px;
+}
+#slidebox .subscribe {
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  margin-bottom: -7px;
 }
 #slidebox #mc_embed_signup {
   border: none;
@@ -2652,9 +2678,6 @@ a.close:hover {
   }
 }
 /* END Slidebar CTA and mailchimp subscribe form */
-.banner-content .error-page h1 h3 {
-  color: #000;
-}
 .footer .widget-area {
   background-color: #ffffff;
 }
