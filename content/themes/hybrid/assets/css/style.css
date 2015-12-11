@@ -1408,6 +1408,9 @@ body[data-site-layout="boxed"] .sf-header {
 .banner .banner-wrap .banner-inner .banner-content .banner-content-inner .sf-social li {
   margin-bottom: 4px;
 }
+.banner .banner-wrap .banner-inner .banner-content .banner-content-inner .sf-social li i {
+  font-size: 18px;
+}
 .banner .background {
   position: absolute;
   width: 100%;
@@ -2624,7 +2627,7 @@ body[data-site-layout="boxed"] .sf-header {
 }
 #mc_embed_signup hr {
   margin-top: 0.5em;
-  margin-bottom: -0.5em;
+  margin-bottom: 0em;
   color: #dadfe1;
 }
 #mc_embed_signup .mc-field-group input {
