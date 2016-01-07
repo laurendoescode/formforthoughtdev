@@ -1327,6 +1327,7 @@ body[data-site-layout="boxed"] .sf-header {
   max-width: 55%;
   padding: 20px 0;
   text-align: left;
+  margin-top: 14em;
 }
 .post-template .banner .banner-wrap .banner-inner .banner-content .banner-content-inner .welcome-text {
   float: none;
@@ -2675,6 +2676,24 @@ a.close {
 a.close:hover {
   background-position: 0 -16px;
 }
+.contact-form #mc_embed_signup {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 40px;
+  border: 2px solid #aaa;
+}
+.contact-form #mc_embed_signup #box-message input {
+  margin-bottom: 10px;
+  padding-top: 0;
+  padding-left: 0;
+}
+.contact-form #mc_embed_signup .asterisk {
+  position: absolute;
+  top: 45px;
+}
+.contact-form #mc_embed_signup label {
+  margin-bottom: 0.8em;
+}
 @media only screen and (max-device-width: 480px) {
   #slidebox {
     width: 100%;
@@ -3113,6 +3132,9 @@ a.close:hover {
     font-size: 38px;
     line-height: 48px;
   }
+  .banner .banner-wrap .banner-inner .banner-content.error-page .banner-content-inner .welcome-text {
+    max-width: 100%;
+  }
   .post-list .post .post-inner {
     height: 360px;
   }
@@ -3169,8 +3191,8 @@ a.close:hover {
   .addition-container .sf-search-button .sf-search-container .sf-search-container-inner .arrow {
     right: 67px;
   }
-  .addition-container .banner .banner-wrap .banner-inner .banner-content.error-page .banner-content-inner .welcome-text {
-    min-width: 100%;
+  .addition-container .error-page .welcome-text {
+    max-width: 100%;
   }
   .sf-nav-wrap {
     width: 343px;
@@ -3231,6 +3253,16 @@ a.close:hover {
   }
   .widget .about-container .avatar img {
     max-width: 35px;
+  }
+  .next-wrap {
+    float: left;
+    margin: 0;
+    width: 50%;
+  }
+  .prev-wrap {
+    float: right;
+    margin: 0;
+    width: 50%;
   }
 }
 @media only screen and (max-width: 360px) {
