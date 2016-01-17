@@ -2597,7 +2597,7 @@ body[data-site-layout="boxed"] .sf-header {
   border-bottom: solid 1px #e2e7ea;
 }
 .widget .sf-cta-widget .email {
-  width: 100%;
+  width: 96% !important;
   padding-left: 0.5em;
 }
 /* Slidebar CTA form and mailchimp subscribe form */
@@ -2605,7 +2605,7 @@ body[data-site-layout="boxed"] .sf-header {
   border: 2px solid #46bdce;
   clear: left;
   font: 14px;
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-family: 'neuzeit-grotesk', Helvetica, Arial, sans-serif;
   padding: 1px 10px 15px 11px;
   margin: 2px -10px 15px -10px;
 }
@@ -2651,15 +2651,22 @@ body[data-site-layout="boxed"] .sf-header {
   text-transform: uppercase;
   letter-spacing: 0.3px;
   margin-bottom: -7px;
+  padding-top: 10px;
 }
 #slidebox #mc_embed_signup {
   border: none;
   background: #fff;
 }
+#slidebox #mc_embed_signup p {
+  margin: -16px 0;
+}
 #slidebox #mc_embed_signup .button {
   height: 2.5em;
   margin-bottom: -2em;
   font-size: 1.2em;
+}
+#slidebox .mc-field-group #mce-EMAIL {
+  width: 96%;
 }
 a.close {
   background: transparent url(http://cdn2.hubspot.net/hub/53/file-527841348-gif/close.gif) no-repeat top left;
