@@ -2,8 +2,8 @@
 	<div class="row">
 		{{#foreach posts columns=3}}
 			{{#if @rowStart}}
-			<div class="col-md-12 large-item {{post_class}} {{#if image}}has-thumb{{/if}}">
-				<div class="post-inner {{#if image}}has-thumb{{/if}}">
+			<div class="col-md-12 large-item {{post_class}}">
+				<div class="post-inner">
 					<div class="post-header">         
 			            <div class="header-wrap">
 			            	{{#if tags}}
@@ -34,8 +34,8 @@
 				</div>
 			</div>
 			{{else}}
-			<div class="col-md-6 small-item {{post_class}} {{#if image}}has-thumb{{/if}}">
-				<div class="post-inner {{#if image}}has-thumb{{/if}}" {{#if image}}style="background-image: url({{image}})"{{/if}}>
+			<div class="col-md-6 small-item {{post_class}}">
+				<div class="post-inner">
 					<div class="post-header">         
 			            <div class="header-wrap">
 			                {{#if tags}}
