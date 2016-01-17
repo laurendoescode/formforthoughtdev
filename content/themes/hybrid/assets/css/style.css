@@ -1,9 +1,9 @@
 body {
-  font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+  font-family: 'neuzeit-grotesk', 'Helvetica Neue', sans-serif;
   color: #20252b;
-  font-size: 16px;
-  line-height: 26px;
-  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.7;
+  font-weight: 300;
   margin: 0;
   padding: 0;
 }
@@ -25,7 +25,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-  font-family: 'Neuzeit Grotesk', 'Helvetica Neue', sans-serif;
+  font-family: 'neuzeit-grotesk', 'Helvetica Neue', sans-serif;
   line-height: 1.2;
 }
 .btn,
@@ -491,7 +491,7 @@ a {
   max-height: 4em;
 }
 .sf-header .logo-container .logo-full.text {
-  font-family: 'Neuzeit Grotesk', 'Helvetica Neue', sans-serif;
+  font-family: 'neuzeit-grotesk', 'Helvetica Neue', sans-serif;
   font-size: 38px;
   font-weight: 700;
   text-transform: uppercase;
@@ -2611,9 +2611,8 @@ body[data-site-layout="boxed"] .sf-header {
 }
 #mc_embed_signup h2 {
   line-height: 1.3em;
-  margin-bottom: -5px;
-  font-size: 1.7em;
-  padding-bottom: -1px;
+  margin-bottom: -16px;
+  font-size: 22px;
 }
 #mc_embed_signup p {
   margin: 0;
@@ -2629,11 +2628,8 @@ body[data-site-layout="boxed"] .sf-header {
   text-transform: uppercase;
   letter-spacing: 0.3px;
   margin-bottom: -7px;
-}
-#mc_embed_signup hr {
-  margin-top: 0.5em;
-  margin-bottom: 0em;
-  color: #dadfe1;
+  border-bottom: 1px solid #dadfe1;
+  font-size: 16px;
 }
 /* SLIDE-IN CTA */
 #slidebox {
@@ -3150,6 +3146,15 @@ a.close:hover {
   }
 }
 @media only screen and (max-width: 480px) {
+  .body {
+    font-size: 16px;
+  }
+  .h3 {
+    font-size: 28px;
+  }
+  .blockquote {
+    font-size: 20px;
+  }
   .sf-header .logo-container .logo-mobile img {
     display: block;
     max-width: 13em;
