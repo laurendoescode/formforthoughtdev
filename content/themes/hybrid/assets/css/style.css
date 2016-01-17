@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', 'Helvetica Neue', sans-serif;
   color: #20252b;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 26px;
   font-weight: 400;
   margin: 0;
@@ -26,7 +26,7 @@ h4 a,
 h5 a,
 h6 a {
   font-family: 'Neuzeit Grotesk', 'Helvetica Neue', sans-serif;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 .btn,
 .form-control,
@@ -1344,6 +1344,10 @@ body[data-site-layout="boxed"] .sf-header {
   margin: 0;
   color: #ffffff;
 }
+.banner .banner-wrap .banner-inner .banner-content .banner-content-inner .welcome-text h1.welcome-tagline {
+  position: relative;
+  top: -114px;
+}
 .banner .banner-wrap .banner-inner .banner-content .banner-content-inner .welcome-text h3 {
   margin: 10px 0 0 0;
   font-weight: 400;
@@ -1403,7 +1407,7 @@ body[data-site-layout="boxed"] .sf-header {
 .banner .banner-wrap .banner-inner .banner-content .banner-content-inner .sf-social {
   position: absolute;
   right: 0px;
-  bottom: -95px;
+  bottom: -40px;
   text-align: right;
 }
 .banner .banner-wrap .banner-inner .banner-content .banner-content-inner .sf-social li {
@@ -1457,6 +1461,7 @@ body[data-site-layout="boxed"] .sf-header {
 }
 .post-list .post .post-inner .post-tags {
   color: rgba(32, 37, 43, 0.65);
+  padding-bottom: 10px;
 }
 .post-list .post .post-inner .post-tags a {
   position: relative;
@@ -1501,7 +1506,7 @@ body[data-site-layout="boxed"] .sf-header {
 .post-list .post .post-inner .post-title a {
   text-decoration: none;
   color: #20252b;
-  font-size: 28px;
+  font-size: 33px;
   line-height: 38px;
   border-bottom: solid 1px transparent;
 }
@@ -1666,8 +1671,8 @@ body[data-site-layout="boxed"] .sf-header {
   display: none;
 }
 .post-list .post.small-item .post-inner .post-title a {
-  font-size: 22px;
-  line-height: 32px;
+  font-size: 24px;
+  line-height: 28px;
 }
 .post-list .post.featured:before,
 .post-list .post.featured:after {
@@ -1748,20 +1753,19 @@ body[data-site-layout="boxed"] .sf-header {
   margin-top: 30px;
 }
 .post-content h1 {
-  font-size: 42px;
+  font-size: 44px;
 }
 .post-content h2 {
-  font-size: 38px;
+  font-size: 40px;
 }
 .post-content h3 {
-  font-size: 32px;
+  font-size: 34px;
 }
 .post-content h4 {
   font-size: 28px;
 }
 .post-content h5 {
   font-size: 24px;
-  font-size: 20px;
 }
 .post-content h6 {
   font-size: 16px;
@@ -1823,8 +1827,8 @@ body[data-site-layout="boxed"] .sf-header {
 }
 .post-content blockquote p {
   font-style: italic;
-  font-size: 18px;
-  line-height: 34px;
+  font-size: 24px;
+  line-height: 30px;
 }
 .post-content blockquote:before {
   font-family: 'FontAwesome';
@@ -1832,7 +1836,7 @@ body[data-site-layout="boxed"] .sf-header {
   position: absolute;
   left: 0px;
   top: 0px;
-  font-size: 18px;
+  font-size: 24px;
 }
 .post-content blockquote:after {
   font-family: 'FontAwesome';
@@ -1840,7 +1844,7 @@ body[data-site-layout="boxed"] .sf-header {
   position: absolute;
   right: 0px;
   bottom: 0px;
-  font-size: 18px;
+  font-size: 24px;
 }
 .post-content cite {
   display: block;
@@ -2631,9 +2635,6 @@ body[data-site-layout="boxed"] .sf-header {
   margin-bottom: 0em;
   color: #dadfe1;
 }
-#mc_embed_signup .mc-field-group input {
-  margin-top: -10px;
-}
 /* SLIDE-IN CTA */
 #slidebox {
   width: 330px;
@@ -3123,8 +3124,8 @@ a.close:hover {
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .post-list .post .post-inner .post-title a {
-    font-size: 22px;
-    line-height: 32px;
+    font-size: 26px;
+    line-height: 27px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -3215,12 +3216,12 @@ a.close:hover {
     margin-top: -60px;
   }
   .post-list .post .post-inner .post-title a {
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 24px;
+    line-height: 26px;
   }
   .post-list .post.small-item .post-inner .post-title a {
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 24px;
+    line-height: 26px;
   }
   .post-content .top-meta .post-time,
   .post-content .top-meta .post-comments {
@@ -3284,8 +3285,8 @@ a.close:hover {
     height: 440px;
   }
   .banner .banner-wrap .banner-inner .banner-content .banner-content-inner .welcome-text h1 {
-    font-size: 24px;
-    line-height: 34px;
+    font-size: 49px;
+    line-height: 71px;
   }
   .banner .banner-wrap .banner-inner .banner-content .banner-content-inner .welcome-text h3 {
     font-size: 15px;

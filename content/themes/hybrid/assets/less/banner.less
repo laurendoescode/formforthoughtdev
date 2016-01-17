@@ -55,16 +55,12 @@
                 }
                 .banner-content-inner{
                     position: relative;
-                    .welcome-tagline {
-                        margin-top: 1em;
-                    }
                     .welcome-text{
                         float: left;
                         max-width: 55%;
                         padding: 20px 0;
                         text-align: left;
                         margin-top: 14em;
-
                         .post-template &{
                             float: none;
                             max-width: 100%;
@@ -79,6 +75,10 @@
                             line-height: 62px;                  
                             margin: 0;
                             color: @light-color;
+                            &.welcome-tagline {
+                               position: relative;
+                                top: -114px;
+                            }
                         }
                         h3 {
                             margin: 10px 0 0 0;
@@ -140,7 +140,7 @@
                     .sf-social{
                         position: absolute;
                         right: 0px;
-                        bottom: -95px;                        
+                        bottom: -40px;                        
                         text-align: right;
                         li{
                             margin-bottom: 4px;
