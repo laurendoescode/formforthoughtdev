@@ -2597,7 +2597,7 @@ body[data-site-layout="boxed"] .sf-header {
   border-bottom: solid 1px #e2e7ea;
 }
 .widget .sf-cta-widget .email {
-  width: 96% !important;
+  width: 100% !important;
   padding-left: 0.5em;
 }
 /* Slidebar CTA form and mailchimp subscribe form */
@@ -2611,7 +2611,6 @@ body[data-site-layout="boxed"] .sf-header {
 }
 #mc_embed_signup h2 {
   line-height: 1.3em;
-  margin-bottom: -16px;
   font-size: 22px;
 }
 #mc_embed_signup p {
@@ -2658,7 +2657,7 @@ body[data-site-layout="boxed"] .sf-header {
   background: #fff;
 }
 #slidebox #mc_embed_signup p {
-  margin: -16px 0;
+  margin: 0;
 }
 #slidebox #mc_embed_signup .button {
   height: 2.5em;
@@ -2666,7 +2665,7 @@ body[data-site-layout="boxed"] .sf-header {
   font-size: 1.2em;
 }
 #slidebox .mc-field-group #mce-EMAIL {
-  width: 96%;
+  width: 100% !important;
 }
 a.close {
   background: transparent url(http://cdn2.hubspot.net/hub/53/file-527841348-gif/close.gif) no-repeat top left;
