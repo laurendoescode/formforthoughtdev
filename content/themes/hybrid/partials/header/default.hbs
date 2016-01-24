@@ -1,13 +1,11 @@
 <div class="sf-header">
 	<div class="header-wrap">
 		<div class="logo-container">
-			{{#if @blog.logo}}
-				<a class="logo" href="{{@blog.url}}">
+				<a class="logo-full" href="{{@blog.url}}">
 					<img src="{{@blog.logo}}" alt="{{@blog.title}}" title="{{@blog.title}}"/>
+				<a class="logo-mobile" href="{{@blog.url}}">
+					<img src="/assets/img/fft-logo-short.png" alt="{{@blog.title}}" title="{{@blog.title}}">	
 				</a>
-			{{else}}
-				<a class="logo text" href="{{@blog.url}}">{{@blog.title}}</a>
-			{{/if}}
 		</div>
 		<div class="addition-container">
 			<div class="sf-search-button">

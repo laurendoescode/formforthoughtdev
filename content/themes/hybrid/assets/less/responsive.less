@@ -418,7 +418,9 @@
 	    width: 50%;
 	}
 }
-@media only screen and (max-width: 360px) {
+
+
+@media only screen and (max-width: 380px) {
 	.sf-header,
 	.main-wrap,
 	.banner-wrap,
@@ -433,9 +435,22 @@
     .banner{
     	height: 440px;
     }
-    .banner .banner-wrap .banner-inner .banner-content .banner-content-inner .welcome-text h1 {
-	  	font-size: 49px;
-    	line-height: 71px;
+    .banner .banner-wrap .banner-inner .banner-content .banner-content-inner .welcome-text{
+		margin-top: 1.5em;
+	    	h1 {
+	    	font-size: 47px;
+	    	line-height: 51px;
+	    	letter-spacing: -0.5px;
+	    }
+	}
+	.body {
+		font-size: 19px;
+	}
+	.logo-container {
+		width: 59%;
+			.logo-mobile img {
+			width: 93%;
+		}
 	}
 	.banner .banner-wrap .banner-inner .banner-content .banner-content-inner .welcome-text h3 {	  
 	  	font-size: 15px;
@@ -462,6 +477,13 @@
     }
     .post-content{
     	margin-bottom: 20px;
+    	h1 {
+    		line-height: 1.1;
+    		font-size: 34px;
+    	}
+    	ul {
+    		margin-left: -20px;
+    	}
     	.top-meta{
     		padding: 10px 20px;
     	}
