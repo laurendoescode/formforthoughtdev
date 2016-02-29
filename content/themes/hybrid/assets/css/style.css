@@ -3296,8 +3296,8 @@ a.close:hover {
     height: 440px;
   }
   .banner .banner-wrap .banner-inner .banner-content .banner-content-inner .welcome-text h1 {
-    font-size: 49px;
-    line-height: 71px;
+    font-size: 20px;
+    line-height: 1.2;
   }
   .banner .banner-wrap .banner-inner .banner-content .banner-content-inner .welcome-text h3 {
     font-size: 15px;
