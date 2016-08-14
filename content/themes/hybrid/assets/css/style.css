@@ -1448,6 +1448,13 @@ body[data-site-layout="boxed"] .sf-header {
 .sidebar .sidebar-wrap .widget .widget-title {
   color: #20252b;
 }
+.post-list .post .post-header-image {
+  display: block;
+  height: 250px;
+  background-size: auto 150%;
+  background-repeat: no-repeat;
+  background-position: center 30%;
+}
 .post-list .post .post-inner {
   padding: 20px 30px 30px 30px;
   margin-bottom: 30px;
@@ -3139,7 +3146,7 @@ a.close:hover {
     max-width: 100%;
   }
   .post-list .post .post-inner {
-    height: 360px;
+    height: 380px;
   }
   .post-list .post .post-inner .post-desc {
     max-height: 105px;

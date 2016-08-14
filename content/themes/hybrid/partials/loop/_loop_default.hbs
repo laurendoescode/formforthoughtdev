@@ -35,8 +35,11 @@
 			</div>
 			{{else}}
 			<div class="col-md-6 small-item {{post_class}}">
+				{{#if image}}
+					<a href="{{url}}" class="post-header-image" style="background-image: url({{image}})"></a>
+				{{/if}}
 				<div class="post-inner">
-					<div class="post-header">         
+					<div class="post-header">
 			            <div class="header-wrap">
 			                {{#if tags}}
 		                    <div class="post-tags">{{tags separator=" "}}</div>
