@@ -238,6 +238,12 @@
 	.banner .banner-wrap .banner-inner .banner-content.error-page .banner-content-inner .welcome-text {
         max-width: 100%;
     }
+    ul {
+		margin-left: -20px;
+	}
+	.recent-posts li a {
+		font-size: 18px;
+	}
 	.post-list{
 		.post{
 			.post-inner{
@@ -260,7 +266,10 @@
 
 @media only screen and (max-width: 480px) { 
 	.body {
-		font-size: 16px;
+		font-size: 18px;
+	}
+	p {
+		font-size: 18px;
 	}
 	.h3 {
 		font-size: 28px;
@@ -268,11 +277,19 @@
 	.blockquote {
 		font-size: 20px;
 	}
+	h2 {
+		font-size: 35px;
+    	line-height: 38px;
+	}
     .sf-header .logo-container .logo-mobile img {
     	display: block;
-	    max-width: 13em;
+	    max-width: 9em;
 	}
 	.sf-header .logo-container .logo-full {
+		display: none;
+	}
+
+	#slidebox {
 		display: none;
 	}
 
@@ -335,6 +352,8 @@
 	}
 	.main-wrap{
 		margin-top: -60px;
+		padding-left: 8px;
+    	padding-right: 8px;
 	}
 	.post-list{
     	.post{
@@ -418,7 +437,9 @@
 	    width: 50%;
 	}
 }
-@media only screen and (max-width: 360px) {
+
+
+@media only screen and (max-width: 380px) {
 	.sf-header,
 	.main-wrap,
 	.banner-wrap,
@@ -433,9 +454,16 @@
     .banner{
     	height: 440px;
     }
-    .banner .banner-wrap .banner-inner .banner-content .banner-content-inner .welcome-text h1 {
-	  	font-size: 49px;
-    	line-height: 71px;
+    .banner .banner-wrap .banner-inner .banner-content .banner-content-inner .welcome-text {
+		margin-top: 11.5em;
+    	h1 {
+    	    font-size: 23px;
+			line-height: 1.3;
+    		letter-spacing: -0.5px;
+    	}
+	}
+	.body {
+		font-size: 18px;
 	}
 	.banner .banner-wrap .banner-inner .banner-content .banner-content-inner .welcome-text h3 {	  
 	  	font-size: 15px;
@@ -462,6 +490,13 @@
     }
     .post-content{
     	margin-bottom: 20px;
+    	h1 {
+    		line-height: 1.1;
+    		font-size: 34px;
+    	}
+    	ul {
+    		margin-left: -20px;
+    	}
     	.top-meta{
     		padding: 10px 20px;
     	}
